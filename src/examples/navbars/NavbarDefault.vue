@@ -134,7 +134,7 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        Material Design
+        DataTek Professional
       </RouterLink>
       <!-- <a
         href="https://www.creative-tim.com/product/vue-material-kit-pro"
