@@ -7,7 +7,7 @@ defineProps({
     logo: String,
     route: "",
     default: () => ({
-      name: "Material Kit 2",
+      name: "DataTek",
       logo: logoDark,
       route: "/"
     })

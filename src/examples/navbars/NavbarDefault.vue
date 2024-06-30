@@ -120,7 +120,7 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        Material Kit 2
+        DataTek, The Professional instrument import agent.
       </RouterLink>
       <RouterLink
         class="navbar-brand d-block d-md-none"
@@ -136,11 +136,11 @@ watch(
       >
         Material Design
       </RouterLink>
-      <a
+      <!-- <a
         href="https://www.creative-tim.com/product/vue-material-kit-pro"
         class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block"
         >Buy Now</a
-      >
+      > -->
       <button
         class="navbar-toggler shadow-none ms-2"
         type="button"
@@ -908,7 +908,7 @@ watch(
               </div>
             </div>
           </li>
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               href="https://www.github.com/creativetimofficial/vue-material-kit"
               class="nav-link d-flex cursor-pointer align-items-center"
@@ -928,7 +928,7 @@ watch(
               </svg>
               Github
             </a>
-          </li>
+          </li> -->
         </ul>
         <ul class="navbar-nav d-lg-block d-none">
           <li class="nav-item">
