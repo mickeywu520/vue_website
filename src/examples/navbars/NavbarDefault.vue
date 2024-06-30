@@ -175,7 +175,7 @@ watch(
                 :class="getTextColor()"
                 >dashboard</i
               >
-              Pages
+              Company Profile
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -285,7 +285,7 @@ watch(
                 :class="getTextColor()"
                 >view_day</i
               >
-              Sections
+              Products
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -768,7 +768,7 @@ watch(
                 :class="getTextColor()"
                 >article</i
               >
-              Docs
+              Solution
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
