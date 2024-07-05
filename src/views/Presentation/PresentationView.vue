@@ -10,14 +10,14 @@ import FilledInfoCard from "../../examples/cards/infoCards/FilledInfoCard.vue";
 //Vue Material Kit 2 components
 import MaterialSocialButton from "@/components/MaterialSocialButton.vue";
 
-// sections
-import PresentationCounter from "./Sections/PresentationCounter.vue";
-import PresentationPages from "./Sections/PresentationPages.vue";
-import PresentationExample from "./Sections/PresentationExample.vue";
+// // sections
+// import PresentationCounter from "./Sections/PresentationCounter.vue";
+// import PresentationPages from "./Sections/PresentationPages.vue";
+// import PresentationExample from "./Sections/PresentationExample.vue";
 import data from "./Sections/Data/designBlocksData";
 import BuiltByDevelopers from "./Components/BuiltByDevelopers.vue";
 import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
-import PresentationInformation from "./Sections/PresentationInformation.vue";
+// import PresentationInformation from "./Sections/PresentationInformation.vue";
 
 //images
 import vueMkHeader from "@/assets/img/vue-mk-header.jpg";

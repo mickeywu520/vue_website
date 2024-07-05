@@ -156,6 +156,7 @@ watch(
           <span class="navbar-toggler-bar bar3"></span>
         </span>
       </button>
+      <!-- Navigation header "About us" section, mickey remark START -->
       <div
         class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0"
         id="navigation"
@@ -175,7 +176,7 @@ watch(
                 :class="getTextColor()"
                 >dashboard</i
               >
-              Company Profile
+              ABOUT US
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -271,6 +272,9 @@ watch(
               </div>
             </div>
           </li>
+          <!-- Navigation header "About us" section, mickey remark END -->
+
+          <!-- Navigation header "Products" section, mickey remark START -->
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
@@ -285,7 +289,7 @@ watch(
                 :class="getTextColor()"
                 >view_day</i
               >
-              Products
+              PRODUCTS
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -754,6 +758,9 @@ watch(
               </div>
             </div>
           </li>
+          <!-- Navigation header "Products" section, mickey remark END -->
+
+          <!-- Navigation header "Applications" section, mickey remark START -->
           <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
@@ -768,7 +775,7 @@ watch(
                 :class="getTextColor()"
                 >article</i
               >
-              Solution
+              APPLICATIONS
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -908,6 +915,45 @@ watch(
               </div>
             </div>
           </li>
+          <!-- Navigation header "Applications" section, mickey remark END -->
+
+          <!-- mickey, test new navbar for support page START -->
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a
+              role="button"
+              class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+              :class="getTextColor()"
+              id="dropdownMenuPages"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              SUPPORT
+              <img
+                :src="getArrowColor()"
+                alt="down-arrow"
+                class="arrow ms-2 d-lg-block d-none"
+              />
+              <img
+                :src="getArrowColor()"
+                alt="down-arrow"
+                class="arrow ms-1 d-lg-none d-block ms-auto"
+              />
+            </a>
+            <div
+              class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3"
+              aria-labelledby="dropdownMenuPages"
+            >
+            <RouterLink
+              :to="{ name: 'author' }"
+              class="dropdown-item border-radius-md"
+            >
+              <span>FAQ</span>
+              </RouterLink>
+            </div>
+          </li>
+          <!-- mickey, test new navbar for support page END -->
+
+
           <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               href="https://www.github.com/creativetimofficial/vue-material-kit"
